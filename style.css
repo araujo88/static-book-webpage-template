@@ -1,0 +1,45 @@
+body.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.toolbar {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Custom CSS for book content */
+.light-theme .book-content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.dark-theme .book-content {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.dark-theme .nav-link {
+    color: #dad07a;
+}
+
+.dark-theme .btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.chapter {
+    display: none; /* Initially hide all chapters */
+}
+
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
